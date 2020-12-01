@@ -1,0 +1,18 @@
+.banner-card {
+    display: inline-block;
+    border: 1px solid orange;
+    border-radius: 4px;
+    padding: 16px;
+    margin: 16px;
+
+    &__img {
+        width: 200px;
+        height: 100px;
+        object-fit: cover;
+        margin-bottom: 16px;
+    }
+
+    &__title {
+        font-weight: bold;
+    }
+}

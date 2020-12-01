@@ -1,0 +1,13 @@
+<%= require('html-loader!@/assets/html/includes/header.html') %>
+
+<div class="map">
+    <div class="title">Hello world from webpack!</div>
+    <div class="subtitle-1">
+        Ниже будут вставлены баннеры...
+    </div>
+    <div id="insert-banner"></div>
+
+    <img src="<%= require('@/assets/img/contacts-bg.png') %>" alt="Карта"/>
+</div>
+
+<%= require('html-loader!@/assets/html/includes/footer.html') %>
